@@ -12,7 +12,7 @@ WELCOME_TEXT = (
     "O sistema identificou o teu rastro. O Protocolo está activo. ♟️\n\n"
     "Não foi inteligência, foi acesso. Parei de lutar contra o semestre quando "
     "percebi que o Modo Proibido já estava lá, à espera de ser activado.\n\n"
-    "🔓 **ACEDER AO PROTOCOLO:** [LINK_DA_TUA_PAGINA_NETLIFY]"
+    "🔓 **ACEDER AO PROTOCOLO:** https://modo-proibido-2026.netlify.app/"
 )
 
 @bot.message_handler(commands=['start', 'help'])
