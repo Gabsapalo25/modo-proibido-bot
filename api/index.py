@@ -3,7 +3,7 @@ import telebot
 from flask import Flask, request
 
 # Configurações do Mestre
-TOKEN = "8765826139:AAGtcXbU8uFWRr6ENdaskMzvezpcir1ZHo4"
+TOKEN = os.getenv('BOT_TOKEN')
 bot = telebot.TeleBot(TOKEN)
 app = Flask(__name__)
 
